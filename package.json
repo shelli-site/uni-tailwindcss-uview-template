@@ -1,6 +1,7 @@
 {
   "name": "my-project",
   "version": "0.1.0",
+  "description": "node v14.17.1",
   "private": true,
   "scripts": {
     "serve": "npm run dev:h5",
@@ -62,12 +63,9 @@
     "flyio": "^0.6.2",
     "regenerator-runtime": "^0.13.9",
     "vue": "^2.6.11",
-    "vue-class-component": "^7.2.6",
-    "vue-property-decorator": "^9.1.2",
     "vuex": "^3.2.0"
   },
   "devDependencies": {
-    "@babel/plugin-syntax-typescript": "^7.16.0",
     "@babel/runtime": "~7.17.2",
     "@dcloudio/types": "2.5.17",
     "@dcloudio/uni-automator": "^2.0.1-32920211122002",
@@ -82,7 +80,6 @@
     "@dcloudio/webpack-uni-pages-loader": "^2.0.1-32920211122002",
     "@types/tailwindcss": "^2.2.4",
     "@vue/cli-plugin-babel": "~4.5.15",
-    "@vue/cli-plugin-typescript": "4.5.15",
     "@vue/cli-service": "~4.5.15",
     "babel-plugin-import": "^1.11.0",
     "cross-env": "^7.0.2",
@@ -95,7 +92,6 @@
     "sass-loader": "10.2.0",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat",
     "tailwindcss-miniprogram-preset": "^2.0.0",
-    "typescript": "^4.6.2",
     "vue-template-compiler": "^2.6.11",
     "weapp-tailwindcss-webpack-plugin": "^1.2.2"
   },
