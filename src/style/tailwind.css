@@ -1,0 +1,62 @@
+@tailwind components;
+
+@layer components {
+    .abs-center {
+        @apply absolute left-1_2 top-1_2 transform -translate-x-1_2 -translate-y-1_2;
+    }
+
+    /*默认为row，横向排列*/
+    .layout-items-center {
+        @apply flex items-center;
+    }
+
+    .layout-items-baseline {
+        @apply flex items-baseline;
+    }
+
+    .layout-baseline-between {
+        @apply flex items-baseline justify-between;
+    }
+
+    /*左右居中*/
+    .layout-center {
+        @apply flex justify-center;
+    }
+
+    /*两边排列*/
+    .layout-slide {
+        @apply flex items-center justify-between;
+    }
+
+    /*左中右排列*/
+    .layout-around {
+        @apply flex items-center justify-around;
+    }
+
+    /*两边排列, 换行*/
+    .layout-slide-wrap {
+        @apply flex flex-wrap items-center justify-between;
+    }
+
+    /*上下排列*/
+    .layout-col-slide {
+        @apply flex flex-col justify-between;
+    }
+
+    /*左右垂直居中*/
+    .layout-abs-center {
+        @apply flex items-center justify-center;
+    }
+
+    /*横向左右垂直居右*/
+    .layout-end {
+        @apply flex items-center justify-end;
+    }
+
+    /*纵向左右垂直居中*/
+    .layout-col-center {
+        @apply flex flex-col items-center justify-center;
+    }
+}
+
+

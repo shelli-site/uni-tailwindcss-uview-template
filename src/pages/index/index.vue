@@ -10,6 +10,11 @@
     <view class="w-40 h-10 bg-error text-main leading-10 text-center mt-2 text-[32rpx]">
       text-main/bg-error
     </view>
+    <ul class="layout-col-center">
+      <li class="my-2 px-4 border border-solid">1</li>
+      <li class="my-2 px-4 border border-solid border-primary">2</li>
+      <li class="my-2 px-4 border border-solid border-success">3</li>
+    </ul>
   </view>
 </template>
 

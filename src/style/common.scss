@@ -1,0 +1,19 @@
+
+* {
+  border-color: $u-border-color;
+}
+
+body {
+  color: $u-main-color;
+}
+
+ul, li, ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+div, span, p, h1, h2, h3, h4, h5 {
+  padding: 0;
+  margin: 0;
+}
